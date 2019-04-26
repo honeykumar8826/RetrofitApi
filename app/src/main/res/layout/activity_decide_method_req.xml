@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DecideMethodReqActivity">
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:background="@drawable/shape_login"
+        android:textColor="@color/white_color"
+        android:text="@string/get_call"
+         />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:background="@drawable/shape_login"
+        android:text="@string/post_call"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_put"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:background="@drawable/shape_login"
+        android:text="@string/put_call"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:background="@drawable/shape_login"
+        android:text="@string/delete_call"
+        android:textColor="@color/white_color" />
+    <Button
+        android:id="@+id/btn_upload_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:background="@drawable/shape_login"
+        android:text="@string/upload_file_call"
+        android:textColor="@color/white_color" />
+</LinearLayout>

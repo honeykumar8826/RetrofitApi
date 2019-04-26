@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".activity.ImageLoadActivity">
+    <ImageView
+        android:id="@+id/img_fix"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/placeholder"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_alignParentStart="true"/>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/on_swipe_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/img_fix">
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycles_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        tools:context=".MainActivity" />
+</android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
+
+
